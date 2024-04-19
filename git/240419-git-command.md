@@ -27,25 +27,29 @@ git config --global credential.https://github.com.token <token>
 
 
 ## 스테이징
+```bash
 git add filename
-
+```
 
 
 ## 커밋
+```bash
 git commit
-
+```
 -> commit message를 입력하는 vi파일이 나오는데, 입력 후 :wq
 
 
 
 ## 푸시
+```bash
 git push origin branchname -> 최초에 푸시를 하면 토큰을 입력하라고 나온다.
-
+```
 
 
 ## 꿀팁
+```bash
 git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"
-
+```
 -> 로그(git status 등)를 깔끔하c게 볼 수 있다!
 
 
