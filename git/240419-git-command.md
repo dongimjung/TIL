@@ -1,4 +1,5 @@
 ## 현재 내 git 설정을 보고 싶다
+
 git config --list
 
 ## 초기 username, password 등 최초 설정
