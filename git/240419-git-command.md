@@ -1,5 +1,11 @@
-## 현재 내 git 설정을 보고 싶다
+## 현재 내 git 설정을 보고 싶다?
+```bash
 git config --list
+```
+
+
+## 내 git 설정을 파일수정 형식으로 수정하고 싶다?
+vi ~/.gitconfig
 
 
 
@@ -38,4 +44,38 @@ git push origin branchname -> 최초에 푸시를 하면 토큰을 입력하라�
 ## 꿀팁
 git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"
 
--> 로그(git status 등)를 깔끔하게 볼 수 있다!
+-> 로그(git status 등)를 깔끔하c게 볼 수 있다!
+
+
+
+
+## Conventional Commits!
+1. 제목: 구나 절의 형태로. 구구절절 문장x
+
+2. Importance of Capitalization(O). importanceofcapitalization(X)
+
+3. Prefix
+
+- feat: 기능 개발
+
+- build: 빌드 작업
+
+- fix: 버그패치, 오류 개선
+
+- ci: Continuous Integration
+
+- docs: 문서작업
+
+- chore: 패키지 매니저, 스크립트 등
+
+- test: 테스트 관련
+
+- style: 코드 포매팅
+
+- conf: 환경설정 관련
+
+
+
+
+## .gitignore 파일 작성
+https://gitignore.io 들어가서 팀원들이 사용하는 툴, os, 언어 다 넣어서 생성 -> .gitignore에 복붙
