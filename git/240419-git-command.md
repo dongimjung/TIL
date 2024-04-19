@@ -5,23 +5,25 @@ git config --list
 
 
 ## 내 git 설정을 파일수정 형식으로 수정하고 싶다?
+```bash
 vi ~/.gitconfig
-
+```
 
 
 ## 초기 username, password 등 최초 설정
+```bash
 git config --global user.name "my name"
 
 git config --global user.password "my password" -> 요즘은 password 안 쓰고 토큰만 쓰도록 바뀌었다는데..흠 
 
 git config --global credential.helper store   -> 토큰 한번 저장하면 그 다음부터는 안 묻도록
+```
 
 이 두 줄은 필요한건지 모르겠다. 강의시간에는 안 나온것같은데 내가 안돼서 구글링하며 찾은거라..
-
+```bash
 git config --global credential.https://github.com.username <username>
-
 git config --global credential.https://github.com.token <token>
-
+```
 
 
 ## 스테이징
