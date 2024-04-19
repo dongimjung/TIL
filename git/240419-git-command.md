@@ -42,8 +42,10 @@ git commit
 
 ## 푸시
 ```bash
-git push origin branchname -> 최초에 푸시를 하면 토큰을 입력하라고 나온다.
+git push origin branchname 
 ```
+-> 최초에 푸시를 하면 토큰을 입력하라고 나온다.
+
 
 
 ## 꿀팁
